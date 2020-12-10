@@ -14,14 +14,6 @@ def tearDownClass(TestRecommend):
 
 class TestRecommend(unittest.TestCase):
     
-    # Define the setup class method:
-    @classmethod
-    def setUpClass(cls):
-        print("Setup class method")
-    # Define the teardown class method:
-    @classmethod    
-    def tearDownClass(cls):
-        print("Teardown class method")
     
     # Define the required setup case:
     def setUp(self):
